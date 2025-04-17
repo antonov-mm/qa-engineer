@@ -1,0 +1,589 @@
+<html lang="en" class="fa-events-icons-ready"><!-- Mirrored from files.portnine.com/bootstrap-themes/AwesomeAdmin/1.6/preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 07:13:34 GMT --><head>
+        <meta charset="utf-8">
+        <title>Users</title>
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+
+
+
+
+        <!-- For sample logo only-->
+        <!--Remove if you no longer need this font-->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Aguafina+Script">    <!--For sample logo only-->
+
+
+
+
+
+        <link type="text/css" href="/templates/buggy//js/sug/css/suggestions.css">
+        <link rel="stylesheet" type="text/css" href="/templates/buggy/preview/lib/bootstrap3/dist/css/bootstrap.css">
+        <script src="https://use.fontawesome.com/1648dcb27f.js"></script><link href="https://use.fontawesome.com/1648dcb27f.css" media="all" rel="stylesheet">
+        <script src="/templates/buggy/preview/lib/jquery-1.11.2.min.js" type="text/javascript"></script>
+        <script src="/templates/buggy/preview/javascripts/site.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="/templates/buggy/js/goal/goalProgress.css">
+        <script src="/templates/buggy/js/goal/goalProgress.js"></script>
+        <link rel="stylesheet" type="text/css" href="/templates/buggy/preview/stylesheets/theme.css">
+        <link rel="stylesheet" type="text/css" href="/templates/buggy/sorter/blue/style.css">
+
+        <style>
+            .select2-results,.select2-selection__choice{
+                color: black !important;
+            }
+        </style>
+                <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Le fav and touch icons -->
+
+
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="/reject/reject.css" media="all" />
+            <script type="text/javascript" src="/reject/reject.min.js" data-text="Unfortunately, the browser you use, outdated and can not properly display the site. Please download any of the following browsers:"></script>
+    <![endif]-->
+        <link rel="shortcut icon" href="../assets/ico/favicon.html">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/templates/buggy//assets/ico/apple-touch-icon-144-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/templates/buggy//assets/ico/apple-touch-icon-114-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/templates/buggy//assets/ico/apple-touch-icon-72-precomposed.html">
+        <link rel="apple-touch-icon-precomposed" href="/templates/buggy//assets/ico/apple-touch-icon-57-precomposed.html">
+    </head>
+        <!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
+    <!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
+    <!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
+    <!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <body class="">
+        <!--<![endif]-->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-reorder"></span>
+                </button>
+                <p><ins><a href="http://users.bugred.ru/"><b>Users</b></a></ins>  —&nbsp;бесплатный тестовый проект с багами и методами SOAP / REST. <ins><a href="https://okiseleva.blogspot.com/2017/04/users-soap-rest.html" target="_blank">О проекте</a></ins> . <ins><a href="https://testbase.atlassian.net/wiki/spaces/USERS/overview" target="_blank">Полная документация</a></ins> </p>
+
+            </div>
+            
+                <div class="hidden-xs">
+                    <ul class="nav navbar-nav pull-right">
+
+
+
+                        <li class="hidden-phone newlink"><a href="/tasks/notify/index.html" role="button"><i class="fa icon-envelope"></i>&nbsp;128 </a></li>
+                        <li class="hidden-phone newlink"><a href="/tasks/my/index.html" role="button">17 заданий</a></li>
+                        <li id="fat-menu" class="dropdown newlink">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="/tmp/default_avatar.jpg" style="width:15px;">Злобный босс                                <i class="icon-caret-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu" style="background-color:#de4222 !important;">
+                                <li class="newlink"><a tabindex="-1" href="/user/profile/index.html">Личный кабинет</a></li>
+
+                                <li class="divider newlink"></li>
+                                <li class="newlink"><a tabindex="-1" href="/user/logout.html">Выход</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.navbar-collapse -->
+                        </div>
+    
+
+
+    <div class="navbar-collapse collapse">
+        <div id="main-menu">
+
+
+
+            <ul class="nav nav-tabs hidden-xs">
+
+                <li class="newlink"><a href="/"> <span>Пользователи</span></a></li>
+                
+                    <li class="newlink"><a href="/tasks/index.html"> <span>Задачи</span></a></li>
+                    <li class="newlink"><a href="/companys/index.html"> <span>Компании</span></a></li>
+                    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <h2>Пользователи</h2>
+    <p>
+        <a class="btn btn-danger" href="/user/admin/index/create.html">Добавить пользователя</a>
+    </p>
+    <form action="/user/admin/index" method="GET">
+    <table class="table">
+        <tbody><tr>
+            <td colspan="2" style="text-align:center;">Дата изменения</td>
+        </tr>
+        <tr>
+            <td>C&nbsp;<input style="width:80%;display:inline;" class="form-control" type="date" name="date_start" value=""></td>
+            <td>По&nbsp;<input style="width:80%;display:inline;" class="form-control" type="date" name="date_end" value=""></td>
+
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;">Поисковая строка</td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="text" placeholder="Введите email или имя" value="" name="q" class="form-control"></td>
+
+        </tr>
+        <tr>
+            <td><button type="submit" class="btn btn-submit">Найти</button></td>
+            <td><a href="/">Сбросить фильтры</a></td>
+
+        </tr>
+    </tbody></table>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+
+                                <th>Email<a href="?sort_type=asc&amp;sort_field=email"><i class="fa  fa-sort-asc" aria-hidden="true"></i>&nbsp;</a> <a href="?sort_type=desc&amp;sort_field=email"><i class="fa  fa-sort-desc" aria-hidden="true">&nbsp;</i></a></th>
+                                                                                                                          <th style="width:100px">ФИО<a href="?sort_type=asc&amp;sort_field=name"><i class="fa  fa-sort-asc" aria-hidden="true"></i>&nbsp;</a> <a href="?sort_type=desc&amp;sort_field=name"><i class="fa  fa-sort-desc" aria-hidden="true">&nbsp;</i></a></th>
+            <th>Автор<a href="?sort_type=asc&amp;sort_field=by_user.email"><i class="fa  fa-sort-asc" aria-hidden="true"></i>&nbsp;</a> <a href="?sort_type=desc&amp;sort_field=by_user.email"><i class="fa  fa-sort-desc" aria-hidden="true">&nbsp;</i></a></th>
+            <th>Дата изменения<a href="?sort_type=asc&amp;sort_field=date_updated"><i class="fa  fa-sort-asc" aria-hidden="true"></i>&nbsp;</a> <a href="?sort_type=desc&amp;sort_field=date_updated"><i class="fa  fa-sort-desc" aria-hidden="true">&nbsp;</i></a></th>
+                                                                                                      <th>Изменить</th>
+                                            <th>Удалить</th>
+                            <th></th>
+        </tr>
+    </thead>
+    <tbody class="ajax_load_row">
+                        <tr>
+
+                                                    <td>mail957@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                         Машенькаа Grocery                    </td>
+                    <td>
+                                                    rest                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/68007cca9f1b6677148b4597">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/68007cca9f1b6677148b4597">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/68007cca9f1b6677148b4597.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>t_1@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        Тестов                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680073e89f1b6677148b4595">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680073e89f1b6677148b4595">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680073e89f1b6677148b4595.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>mail157@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                         Машенькаа Agent                    </td>
+                    <td>
+                                                    rest                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680070559f1b66dd2c8b4573">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680070559f1b66dd2c8b4573">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680070559f1b66dd2c8b4573.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>mail984@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                         Машенькаа Manat                    </td>
+                    <td>
+                                                    rest                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680061389f1b66dd2c8b456f">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680061389f1b66dd2c8b456f">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680061389f1b66dd2c8b456f.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>fg@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        Eh bien, mon prince. Gênes et Lucques ne sont plus que des apanages, des поместья, de la famille Buonaparte. Non, je vous préviens que si vous ne me dites pas que nous avons la guerre, si vous vous permettez encore de pallier toutes les infamies, toutes les atrocités de cet Antichrist (ma parole, j'y crois) — je ne vous connais plus, vous n'êtes plus mon ami, vous n'êtes plus мой верный раб, comme vous dites 1. Ну, здравствуйте, здравствуйте. Je vois que je vous fais peur 2, садитесь и рассказывайте.Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. Анна Павловна кашляла несколько дней, у нее был грипп, как она говорила (грипп был тогда новое слово, употреблявшееся только редкими). В записочках, разосланных утром с красным лакеем, было написано без различия во всех:«Si vous n'avez rien de mieux à faire, Monsieur le comte (или mon prince), et si la perspective de passer la soirée chez une pauvre malade ne vous effraye pas trop, je serai charmée de vous voir chez moi entre 7 et 10 heures. Annette Scherer» 3.— Dieu, quelle virulente sortie! 4 — отвечал, нисколько не смутясь такою встречей, вошедший князь, в придворном, шитом мундире, в чулках, башмаках и звездах, с светлым выражением плоского лица.Он говорил на том изысканном французском языке, на котором не только говорили, но и думали наши деды, и с теми, тихими, покровительственными интонациями, которые свойственны состаревшемуся в свете и при дворе значительному человеку. Он подошел к Анне Павловне, поцеловал ее руку, подставив ей свою надушенную и сияющую лысину, и покойно уселся на диване.— Avant tout dites-moi, comment vous allez, chère amie? 5 Успокойте меня, — сказал он, не изменяя голоса и тоном, в котором из-за приличия и участия просвечивало равнодушие и даже насмешка.— Как можно быть здоровой... когда нравственно страдаешь? Разве можно, имея чувство, оставаться спокойною в наше время? — сказала Анна Павловна. — Вы весь вечер у меня, надеюсь?— А праздник английского посланника? Нынче середа. Мне надо показаться там, — сказал князь. — Дочь заедет за мной и повезет меня.— Я думала, что нынешний праздник отменен, Je vous avoue que toutes ces fêtes et tous ces feux d'artifice commencent à devenir insipides 6.— Ежели бы знали, что вы этого хотите, праздник бы отменили, — сказал князь по привычке, как заведенные часы, говоря вещи, которым он и не хотел, чтобы верили.— Ne me tourmentez pas. Eh bien, qu'a-t-on décidé par rapport à la dépêche de Novosilzoff? Vous savez tout 7.— Как вам сказать? — сказал князь холодным, скучающим тоном. — Qu'a-t-on décidé? On a décidé que Buonaparte a brûlé ses vaisseaux, et je crois que nous sommes en train de brûler les nôtres 8.Князь Василий говорил всегда лениво, как актер говорит роль старой пиесы. Анна Павловна Шерер, напротив, несмотря на свои сорок лет, была преисполнена оживления и порывов.Быть энтузиасткой сделалось ее общественным положением, и иногда, когда ей даже того не хотелось, она, чтобы не обмануть ожиданий людей, знавших ее, делалась энтузиасткой. Сдержанная улыбка, игравшая постоянно на лице Анны Павловны, хотя и не шла к ее отжившим чертам, выражала, как у избалованных детей, постоянное сознание своего милого недостатка, от которого она не хочет, не может и не находит нужным исправляться.В середине разговора про политические действия Анна Павловна разгорячилась.— Ах, не говорите мне про Австрию! Я ничего не понимаю, может быть, но Австрия никогда не хотела и не хочет войны. Она предает нас. Россия одна должна быть спасительницей Европы. Наш благодетель знает свое высокое призвание и будет верен ему. Вот одно, во что я верю. Нашему доброму и чудному государю предстоит величайшая роль в мире, и он так добродетелен и хорош, что Бог не оставит его, и он исполнит свое призвание задавить гидру революции, которая теперь еще ужаснее в лице этого убийцы и злодея. Мы одни должны искупить кровь праведника. На кого нам надеяться, я вас спрашиваю?.. Англия с своим коммерческим духом не поймет и не может понять всю высоту души императора Александра. Она отказалась очистить Мальту. Она хочет видеть, ищет заднюю мысль наших действий. Что они сказали Новосильцеву? Ничего. Они не поняли, они не могли понять самоотвержения нашего императора, который ничего не хочет для себя и все хочет для блага мира. И что они обещали? Ничего. И что обещали, и того не будет! Пруссия уже объявила, что Бонапарте непобедим и что вся Европа ничего не может против него... И я не верю ни в одном слове ни Гарденбергу, ни Гаугвицу. Cette fameuse neutralité prussienne, ce n'est qu'un piège 9. Я верю в одного Бога и в высокую судьбу нашего милого императора. Он спасет Европу!.. — Она вдруг остановилась с улыбкой насмешки над своею горячностью.— Я думаю, — сказал князь, улыбаясь, — что, ежели бы вас послали вместо нашего милого Винценгероде, вы бы взяли приступом согласие прусского короля. Вы так красноречивы. Вы дадите мне чаю?— Сейчас. A propos, — прибавила она, опять успокоиваясь, — нынче у меня два очень интересные человека, le vicomte de Mortemart, il est allié aux Montmorency par les Rohans 10, одна из лучших фамилий Франции. Это один из хороших эмигрантов, из настоящих. И потом l'abbé Morio; 11 вы знаете этот глубокий ум? Он был принят государем. Вы знаете?— А! Я очень рад буду, — сказал князь. — Скажите, — прибавил он, как будто только что вспомнив что-то и особенно-небрежно, тогда как то, о чем он спрашивал, было главной целью его посещения, — правда, что l'impératrice-mère 12 желает назначения барона Функе первым секретарем в Вену? C'est un pauvre sire, ce baron, à ce qu'il paraît 13. — Князь Василий желал определить сына на это место, которое через императрицу Марию Феодоровну старались доставить барону.Анна Павловна почти закрыла глаза в знак того, что ни она, ни кто другой не могут судить про то, что угодно или нравится императрице.— Monsieur le baron de Funke a été recommandé à l'impératrice-mère par sa soeur 14, — только сказала она грустным, сухим тоном. В то время как Анна Павловна назвала императрицу, лицо ее вдруг представило глубокое и искреннее выражение преданности и уважения, соединенное с грустью, что с ней бывало каждый раз, когда она в разговоре упоминала о своей высокой покровительнице. Она сказала, что ее величество изволила оказать барону Функе beaucoup d'estime 15, и опять взгляд ее подернулся грустью.Князь равнодушно замолк, Анна Павловна, с свойственною ей придворною и женскою ловкостью и быстротою такта, захотела и щелкануть князя за то, что он дерзнул так отозваться о лице, рекомендованном императрице, и в то же время утешить его.— Mais à propos de votre famille, — сказала она, — знаете ли, что ваша дочь, с тех пор как выезжает, fait les délices de tout le monde. On la trouve belle comme le jour 16.Князь наклонился в знак уважения и признательности.— Я часто думаю, — продолжала Анна Павловна после минутного молчания, придвигаясь к князю и ласково улыбаясь ему, как будто выказывая этим, что политические и светские разговоры кончены и теперь начинается задушевный, — я часто думаю, как иногда несправедливо распределяется счастие жизни. За что вам дала судьба таких двух славных детей (исключая Анатоля, вашего меньшого, я его не люблю, — вставила она безапелляционно, приподняв брови), — таких прелестных детей? А вы, право, менее всех цените их и потому их не сто́ите.И она улыбнулась своею восторженной улыбкой.— Que voulez-vous? Lafater aurait dit que je n'ai pas la bosse de la paternité 17, — сказал князь.— Перестаньте шутить. Я хотела серьезно поговорить с вами. Знаете, я недовольна вашим меньшим сыном. Между нами будь сказано (лицо ее приняло грустное выражение), о нем говорили у ее величества и жалеют вас...Князь не отвечал, но она молча, значительно глядя на него, ждала ответа. Князь Василий поморщился.— Что ж мне делать? — сказал он наконец. — Вы знаете, я сделал для их воспитания все, что может отец, и оба вышли des imbéciles 18. Ипполит, по крайней мере, покойный дурак, а Анатоль — беспокойный. Вот одно различие, — сказал он, улыбаясь более неестественно и одушевленно, чем обыкновенно, и при этом особенно резко выказывая в сложившихся около его рта морщинах что-то неожиданно-грубое и неприятное.— И зачем родятся дети у таких людей, как вы? Ежели бы вы не были отец, я бы ни в чем не могла упрекнуть вас, — сказала Анна Павловна, задумчиво поднимая глаза.— Je suis votre верный раб, et à vous seule je puis l'avouer. Мои дети — ce sont les entraves de mon existence 19. Это мой крест. Я так себе объясняю. Que voulez-vous?.. 20 — Он помолчал, выражая жестом свою покорность жестокой судьбе.Анна Павловна задумалась.— Вы никогда не думали о том, чтобы женить вашего блудного сына Анатоля. Говорят, — сказала она, — что старые девицы ont la manie des mariages 21. Я еще не чувствую за собою этой слабости, но у меня есть одна petite personne, которая очень несчастлива с отцом, une parente à nous, une princesse 22 Болконская. — Князь Василий не отвечал, хотя с свойственной светским людям быстротой соображения и памятью движением головы показал, что он принял к соображению это сведенье.— Нет, вы знаете ли, что этот Анатоль мне стоит сорок тысяч в год, — сказал он, видимо не в силах удерживать печальный ход своих мыслей. Он помолчал.— Что будет через пять лет, ежели это пойдет так? Voilà l'avantage d'être père 23. Она богата, ваша княжна?— Отец очень богат и скуп. Он живет в деревне. Знаете, этот известный князь Болконский, отставленный еще при покойном императоре и прозванный прусским королем. Он очень умный человек, но со странностями и тяжелый. La pauvre petite est malheureuse comme les pierres 24. У нее брат, вот что недавно женился на Lise Мейнен, адъютант Кутузова. Он будет нынче у меня.— Ecoutez, chère Annette 25, — сказал князь, взяв вдруг свою собеседницу за руку и пригибая ее почему-то книзу. — Arrangez-moi cette affaire et je suis votre вернейший раб à tout jamais (рап — comme mon староста m'écrit des 26 донесенья: покой-ер-п). Она хорошей фамилии и богата. Все, что мне нужно.И он с теми свободными и фамильярными грациозными движениями, которые его отличали, взял за руку фрейлину, поцеловал ее и, поцеловав, помахал фрейлинскою рукой, развалившись на креслах и глядя в сторону.— Attendez 27, — сказала Анна Павловна, соображая. — Я нынче же поговорю Lise (la femme du jeune Болконский) 28. И, может быть, это уладится. Ce sera dans votre famille que je ferai mon apprentissage de vieille fille 29.                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680058f59f1b66dd2c8b456e">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680058f59f1b66dd2c8b456e">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680058f59f1b66dd2c8b456e.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>77@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        +                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680057659f1b6677148b458e">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680057659f1b6677148b458e">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680057659f1b6677148b458e.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>13@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        rz                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680057309f1b66dd2c8b456c">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680057309f1b66dd2c8b456c">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680057309f1b66dd2c8b456c.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>rz@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        !                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680056da9f1b6677148b458c">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680056da9f1b6677148b458c">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680056da9f1b6677148b458c.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>1@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                        1                    </td>
+                    <td>
+                                                    soap                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680053989f1b66dd2c8b4567">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680053989f1b66dd2c8b4567">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680053989f1b66dd2c8b4567.html">Посмотреть</a></td>
+                </tr>
+                                <tr>
+
+                                                    <td>mail719@mail.ru</td>
+                                                    <td style=" max-width: 300px;                        overflow: hidden;                        text-overflow: ellipsis;                        white-space: nowrap;">
+                         Машенькаа bandwidth-monitored                    </td>
+                    <td>
+                                                    rest                                                </td>
+                    <td>
+                                                    17.04.2025                                                </td>
+                                            <td><a class="btn btn-success" href="/user/admin/index.html?path_grid_asd=/update/680052b79f1b6677148b4589">Изменить</a></td>
+                                                                    <td><a class="btn btn-success" href="  /user/admin/index.html?path_grid_asd=/delete/680052b79f1b6677148b4589">Удалить</a></td>
+
+                                            <td><a class="btn btn-success" href="/user/admin/view/680052b79f1b6677148b4589.html">Посмотреть</a></td>
+                </tr>
+                    </tbody>
+</table>
+<p>Всего:54&nbsp;</p>
+<ul class="pagination"><li class="prev disabled"><span>«</span></li>
+<li class="active"><a href="/?page_mg=0" data-page="0">1</a></li>
+<li><a href="/?page_mg=1" data-page="1">2</a></li>
+<li><a href="/?page_mg=2" data-page="2">3</a></li>
+<li><a href="/?page_mg=3" data-page="3">4</a></li>
+<li><a href="/?page_mg=4" data-page="4">5</a></li>
+<li><a href="/?page_mg=5" data-page="5">6</a></li>
+<li class="next"><a href="/?page_mg=1" data-page="1">»</a></li></ul>
+
+
+
+
+        <div class="notifications top-right"></div>
+        <div class="notifications bottom-right"></div>
+        <div class="notifications top-left"></div>
+        <div class="notifications bottom-left"></div>
+        <footer>
+
+            <hr>
+
+            <p class="text-center"> Проект разработан компанией noi.studio специально для Ольги Назиной (ранее Киселевой) и ее <ins><a href="http://testbase.ru/learn">курсов</a></ins> © 2018</p>
+
+            <p class="text-center">&nbsp;17.04.2025 07:23</p>
+
+
+
+        </footer>
+    </div>
+    <script src="/templates/buggy/preview/lib/bootstrap3/dist/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip({animation: false});
+        $(function () {
+            $('.demo-cancel-click').click(function () {
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript" src="/templates/buggy//js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/jquery.suggestions/16.2.2/css/suggestions.css" type="text/css" rel="stylesheet">
+
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.1/jquery.xdomainrequest.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/templates/buggy/js/sug.js"></script>
+    <script>
+        $(".name_tab_bank").suggestions({
+            serviceUrl: "",
+            token: "",
+            type: "BANK",
+            floating: "true",
+            count: 5,
+            /* Вызывается, когда пользователь выбирает одну из подсказок */
+            onSelect: function (suggestion) {
+                $(".bank_name").val(suggestion.data.name.full);
+
+
+                $(".bank_bik").val(suggestion.data.bic);
+                $(".bank_kor").val(suggestion.data.correspondent_account);
+                $(".bank_reg").val(suggestion.data.registration_number);
+                // $(".bank_date").val(suggestion.data.date_registr);
+                console.log(suggestion);
+            }
+        });
+        $(".name_tab_fio").suggestions({
+            serviceUrl: "",
+            token: "",
+            type: "NAME",
+            floating: "true",
+            count: 5,
+            /* Вызывается, когда пользователь выбирает одну из подсказок */
+            onSelect: function (suggestion) {
+                $(".fio_surname").val(suggestion.data.surname);
+                $(".fio_name").val(suggestion.data.name);
+                $(".fio_fathername").val(suggestion.data.patronymic);
+                $(".fio_gender").val(suggestion.data.gender);
+
+                console.log(suggestion);
+            }
+        });
+        $(".name_tab_email").suggestions({
+            serviceUrl: "",
+            token: "",
+            type: "EMAIL",
+            floating: "true",
+            count: 5,
+            /* Вызывается, когда пользователь выбирает одну из подсказок */
+            onSelect: function (suggestion) {
+                $(".email_domain").val(suggestion.data.domain);
+                $(".email_user").val(suggestion.data.local);
+
+
+                console.log(suggestion);
+            }
+        });
+    </script>
+    <link href="/templates/buggy//preview/lib/bootstrap-notify/bootstrap-notify.css" rel="stylesheet">
+    <link href="/templates/buggy//preview/lib/bootstrap-notify/alert-bangtidy.css" rel="stylesheet">
+    <link href="/templates/buggy//preview/lib/bootstrap-notify/alert-blackgloss.css" rel="stylesheet">
+    <script src="/templates/buggy//preview/lib/bootstrap-notify/bootstrap-notify.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/templates/buggy//js/dropzone.js"></script>
+    <script type="text/javascript" src="/templates/buggy/sorter/jquery.metadata.js"></script>
+    <script type="text/javascript" src="/templates/buggy/sorter/jquery.tablesorter.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+    <script>
+        $('.select2').select2();
+        $(".superup").dropzone({maxFilesize: 2, url: "/bugs/xls/index", "init": function () {
+                this.removeAllFiles(true);
+                this.on("success", function (file, resp) {
+                    this.removeAllFiles(true);
+                    var obj = JSON.parse(resp);
+
+                    if (obj.redirect) {
+
+                        document.location.href = obj.redirect;
+                    } else {
+
+                        console.log(obj.message);
+                        $('.bottom-right').notify({
+                            title: "Ошибка при обработке",
+                            timer: 30000000,
+                            delay: 8000000000000,
+                            z_index: 9999999,
+                            message: {text: obj.message},
+                            type: 'danger',
+                            newest_on_top: true
+                        }).show();
+                    }
+                });
+
+            }});
+        $(".clickfile").on("click", function () {
+            return $(".superup").click();
+        });
+        $(".superup > img").on("click", function () {
+
+            return $(".superup").click();
+        });
+        if (document.location.hash)
+        {
+
+            $('a[href=' + location.hash + ']').click();
+
+        }
+        $(".toogle").on("click", function () {
+            location.hash = $(this).attr("href");
+            return true;
+        });
+        $(".startprogress").on("click", function () {
+            $(".totalpage").hide();
+            $(".superimg").show();
+            $('#sample_goal').goalProgress({
+                goalAmount: 200,
+                currentAmount: 100,
+                textBefore: '%',
+                textAfter: ' выполнено',
+                callback: function () {
+                    var href = $(".startprogress").data("href");
+
+                    document.location.href = href;
+                }
+
+
+            });
+        });
+        $(".checkjs").on("keyup", function () {
+            var val = $(this).val();
+            var maxlength = $(this).data("maxlength");
+            if (maxlength != undefined) {
+                if (val.length > maxlength) {
+                    alert('Низя так много букаф писать');
+
+
+                    val = val.slice(0, -1)
+                    $(this).val(val);
+                    return false;
+                }
+            }
+        });
+        $(".numberfilter3").on("keyup", function () {
+            var val = $(this).val();
+
+
+            var newval = val.replace(/\s/g, '');
+            if (val != newval) {
+                $(".formcontrol").attr("data-action", "javascript:return void();");
+                console.error({
+                    message: "ВОТ эта ОШИБОЧКА! Угадай почему она тут!!",
+                    code: 403
+                });
+            }
+        });
+        $(".numberfilter4").on("keyup", function () {
+            var field = $(this).parents("td").data("field");
+
+            var val = $(this).val();
+            var maxl = $(this).data("maxl");
+            var max = $(this).data("max");
+
+
+            if (val.length > max) {
+                $(".formcontrol").attr("data-action", "javascript:return void();");
+                console.error({
+                    message: "ERROR! Too large for field " + field + ". Maximum - " + max,
+                    code: 403
+                });
+            }
+        });
+        $(".field_need").on("keydown", function () {
+            var element = this;
+            var max = $(element).children("input").data("jsmax");
+
+            if (max != undefined) {
+                var field = $(element).data("field");
+                if (max != undefined) {
+                    var value = $(element).children("input").val();
+                    if (value.length > max) {
+                        console.error({
+                            message: "ERROR! Too large for field " + field + ". Maximum - " + max,
+                            code: 403
+                        });
+
+                    }
+                }
+            }
+        })
+        $(".formcontrol").on("submit", function () {
+            var isresult = true;
+            var action = $(this).data("action");
+            $(".field_need  ").each(function (index, element) {
+                var field = $(element).data("field");
+                $("." + field + "_error").html(" ");
+            });
+            $(".field_need  ").each(function (index, element) {
+                var max = $(element).children("input").data("max");
+                var field = $(element).data("field");
+                if (max != undefined) {
+                    var value = $(element).children("input").val();
+                    if (value.length > max) {
+                        max = max - 1;
+                        var message = "too large for field (actual: " + value.length + ", maximum: " + max + ")";
+                        $("." + field + "_error").html(message);
+                        isresult = false;
+                    }
+                }
+            });
+            if (isresult) {
+                $(this).attr("action", action);
+                return $(this).submit();
+            }
+        });
+        $(".numberfilter").on("change", function () {
+            var val = $(this).val();
+
+
+            $(".number_" + $(this).data("myname")).val(val);
+
+            val = val.replace(/\s/g, '');
+            val = val.replace(/\d+/g, '');
+            $(this).val(val);
+        });
+        $(".numberfilter2").on("keyup", function () {
+            var val = $(this).val();
+
+
+            val = val.replace(/\s/g, '');
+            val = val.replace(/\d+/g, '');
+            $(this).val(val);
+        });
+
+        {
+            $(".table_for_sort").tablesorter();
+        }
+    </script>
+    <link rel="stylesheet" href="/js/growl/jquery.jgrowl.css" type="text/css">
+    <script type="text/javascript" src="/js/growl/jquery.jgrowl.js"></script>
+    
+
+
+
+
+            <script>
+            </script>
+            <script type="text/javascript" src="/templates/buggy//js/global.js"></script>
+
+
+
+
+</body><!-- Mirrored from files.portnine.com/bootstrap-themes/AwesomeAdmin/1.6/preview/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 May 2016 07:13:49 GMT --></html>
